@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css2?family=Diphylleia&display=swap');
+
+:root {
+    --main-background-color: rgb(137, 157, 255);
+    --title-text-color: rgb(0,0,0);
+    --body-text-color: rgb(59,59,59);
+    --container-color: rgb(170, 255, 242);
+    --button-color: rgb(255, 255, 255);  
+}
+body,html {
+    margin:0;
+    padding:0;
+    background-color: var(--main-background-color);
+    color: var(--title-text-color);
+    display:flex;
+    width: 100vw;
+    height: 100vh;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Diphylleia', serif;
+}
+
+
+.container {
+    background-color: var(--container-color);
+    padding: 10px;
+    font-size: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    border-radius: 12px;
+}
+
+            
+.container p {
+    margin:0;
+    padding:0;
+}
+.container .titletxt {
+	font-size: 30px;
+	color: var(--title-text-color);
+	padding: 10px 0px;
+}
+.container .bodytxt {
+	font-size: 18px;
+	color: var(--body-text-color);
+	padding: 2px 0px;
+}
